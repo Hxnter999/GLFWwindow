@@ -2,7 +2,6 @@
 #include <string_view>
 #include <vector>
 #include <iostream>
-#include <thread>
 #include <Windows.h>
 #define GLEW_STATIC
 #define GLFW_EXPOSE_NATIVE_WIN32
