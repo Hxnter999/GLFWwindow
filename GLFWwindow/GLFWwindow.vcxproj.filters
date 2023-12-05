@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Headers\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Headers\window</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window.hpp">
+      <Filter>Headers\window</Filter>
+    </ClInclude>
+    <ClInclude Include="menuvars.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{254c8ff2-18d4-4e5c-a721-6be8976accef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\ImGui">
+      <UniqueIdentifier>{e7f8474e-e71e-48cc-bf11-0128546ed02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\window">
+      <UniqueIdentifier>{f617553a-ca15-4b45-8f35-1a3ab232cd34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{90b13a66-3cb2-4128-9d99-4ce04b0a5219}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
