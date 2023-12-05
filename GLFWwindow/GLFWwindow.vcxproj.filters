@@ -22,19 +22,19 @@
     <ClCompile Include="include\imgui\imgui_widgets.cpp">
       <Filter>Headers\ImGui</Filter>
     </ClCompile>
-    <ClCompile Include="window.cpp">
-      <Filter>Headers\window</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source</Filter>
     </ClCompile>
+    <ClCompile Include="window.cpp">
+      <Filter>Headers\window</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="window.hpp">
-      <Filter>Headers\window</Filter>
-    </ClInclude>
     <ClInclude Include="menuvars.hpp">
       <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="window.hpp">
+      <Filter>Headers\window</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

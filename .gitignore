@@ -1,6 +1,10 @@
 # Prerequisites
 *.d
 *.ini
+*.suo
+*.ipch
+*.vsidx
+*.db
 
 # Compiled Object files
 *.slo

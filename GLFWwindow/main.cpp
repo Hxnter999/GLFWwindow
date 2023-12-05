@@ -48,13 +48,16 @@ int main() {
         
         window->FrameStart();
 
-        if (values::printfps)
+        if (values::fps)
             randomExampleFunc(window);
         
         ImGui::GetBackgroundDrawList()->AddRect({ 500, 600 }, { 900 ,1000 }, ImColor{ 30, 200, 255 }, 50, 0, 25);
         
+
         window->FrameShow();
         //window->ImGuiMenu();
+
+
         window->FrameEnd();
         if (GetAsyncKeyState(VK_END)) isRunning = false;
         //if (GetAsyncKeyState(VK_INSERT) & 1) window->ToggleMenu(); can manually do this instead of FrameShow()

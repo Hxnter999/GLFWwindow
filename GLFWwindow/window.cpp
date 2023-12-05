@@ -85,7 +85,7 @@ void Window::ImGuiMenu() noexcept
     if (ImGui::Begin("Test"))
     {
         ImGui::Text("How are you today");
-        ImGui::Checkbox("Fps", &values::printfps);
+        ImGui::Checkbox("Fps", &values::fps);
 
         if (ImGui::Checkbox("Streamproof", &values::streamproof))
             this->ToggleCapture();

@@ -1,7 +1,7 @@
 #pragma once
 
 namespace values {
-    inline bool printfps;
+    inline bool fps;
     inline bool streamproof = false;
 }
 
