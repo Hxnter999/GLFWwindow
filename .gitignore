@@ -5,7 +5,6 @@
 *.ipch
 *.vsidx
 *.db
-*.gitignore
 
 # Compiled Object files
 *.slo
