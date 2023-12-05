@@ -120,7 +120,7 @@ public:
         glfwWindowHint(GLFW_SCALE_TO_MONITOR, GLFW_TRUE);*/
         
         for (const auto& x : flags)
-            glfwWindowHint(x.hint, x.value), this->m_Flags.push_back(x);
+            glfwWindowHint(x.hint, x.value); /* this->m_Flags.push_back(x); If window->GetFlags is ever needed*/
 
         
         this->m_wClass.m_Monitor = glfwGetPrimaryMonitor();
